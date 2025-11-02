@@ -19,7 +19,8 @@ function get_active_class($page_name, $current) {
             <a href="index.php" class="<?= get_active_class('index.php', $current_page) ?>">Beranda</a>
             <a href="about.php" class="<?= get_active_class('about.php', $current_page) ?>">Tentang Kami</a>
             <a href="gallery.php" class="<?= get_active_class('gallery.php', $current_page) ?>">Galeri</a>
-            <a href="services.php" class="<?= get_active_class('services.php', $current_page) ?>">Layanan</a>   
+            <a href="services.php" class="<?= get_active_class('services.php', $current_page) ?>">Layanan</a> 
+            <a href="Pesanan.php" class="<?= get_active_class('Pesanan.php', $current_page) ?>">Daftar Pesanan</a>  
         </nav>
         
     </div> 

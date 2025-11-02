@@ -12,9 +12,7 @@
 
   <?php 
     include 'includes/header.php'; 
-    include 'koneksi.php';
-    $stmt = $conn->query("SELECT * FROM layanan ORDER BY id_layanan ASC");
-    $layanan = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
   ?>
     
     <section class="services-intro">

@@ -53,11 +53,11 @@
     </div>
     <div class="gallery-item">
       <img src="img/galeri-kaos.jpg" alt="Project 6">
-      <h3>Kaos Horeg</h3>
+      <h3>Kaos Sablon</h3>
     </div>
     <div class="gallery-item">
       <img src="img/galeri-sticker.jpg" alt="Project 6">
-      <h3>Sticker Sound</h3>
+      <h3>Sticker</h3>
     </div>
   </section>
 
