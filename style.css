@@ -84,6 +84,24 @@ nav a.active {
   padding-bottom: 5px;
 }
 
+.btn-logout {
+  background-color: rgb(183, 44, 44);
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #e8e0e0;
+  border: 2px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-logout:hover {
+  background-color: #cb8d11; /* warna sorotan seperti menu aktif di gambar */
+  color: #fff;
+  border-color: #cb8d11;
+}
+
+
 /*=====(index.php)=====*/
 
 /* HERO SECTION */

@@ -1,5 +1,5 @@
 <?php
-    include 'koneksi.php';
+    include '../koneksi.php';
 
     if (!isset($_GET['id'])) {
         die("ID tidak ditemukan!");

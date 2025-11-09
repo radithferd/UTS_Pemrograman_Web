@@ -6,7 +6,11 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-image: url('../img/background-about.jpg'); /* Sesuaikan dengan lokasi file */
+  background-size: cover; /* Agar gambar memenuhi layar */
+  background-repeat: no-repeat; /* Tidak diulang */
+  background-position: center; /* Diletakkan di tengah */
+  background-attachment: fixed;
   color:  #333;
   line-height: 1.6;
 }

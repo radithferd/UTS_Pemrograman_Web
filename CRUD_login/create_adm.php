@@ -1,16 +1,16 @@
-<?php include 'koneksi.php'; ?>
+<?php include '../koneksi.php'; $success = false;?>
 
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Tambah Pesanan</title>
+    <title>Buat Pesanan</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="create.css">
 </head>
 <body class="p-4">
     <div class="container">
-        <h2 class="mb-4">Tambah Pesanan Baru</h2>
+        <h2 class="mb-4">Konfirmasi Pesanan Anda!</h2>
 
         <form method="POST">
             <div class="mb-3">
@@ -26,7 +26,7 @@
                 <input type="email" name="email" class="form-control" required>
             </div>
             <button type="submit" name="submit" class="btn btn-success">Simpan</button>
-            <a href="Pesanan.php" class="btn btn-secondary">Kembali</a>
+            <a href="pesanan.php" class="btn btn-secondary">Kembali</a>
         </form>
 
         <?php
@@ -39,10 +39,20 @@
             $result = pg_execute($conn, "insert_user", array($nama, $layanan, $email));
             if (!$result) {
                 die("Gagal menyimpan data!");
+            } else {
+                $success = true;
             }
-            echo "<script> window.location='Pesanan.php';</script>";
         }
         ?>
+
+        <?php if ($success): ?>
+                <div class="alert alert-success mt-3 text-center" role="alert"> Pesanan berhasil ditambahkan! </div>
+            <script>
+                setTimeout(() => {
+                window.location.href = 'pesanan.php';
+                }, 1000); 
+            </script>
+        <?php endif; ?>
     </div>
 </body>
 </html>

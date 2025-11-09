@@ -1,5 +1,5 @@
 <?php
-include 'koneksi.php';
+include '../koneksi.php';
 
 if (!isset($_GET['id'])) {
     die("ID tidak ditemukan!");
@@ -48,7 +48,7 @@ if (!$data) {
                 <input type="email" name="email" value="<?php echo htmlspecialchars($user['email']); ?>" class="form-control" required>
             </div>
             <button type="submit" name="update" class="btn btn-primary">Update</button>
-            <a href="index.php" class="btn btn-secondary">Kembali</a>
+            <a href="Pesanan.php" class="btn btn-secondary">Kembali</a>
         </form>
 
         <?php

@@ -2,11 +2,10 @@
 <html lang="id">
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <meta charset="UTF-8">
     <title>Nihil Studio | Percetakan & Desain</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="../img/logo.png">
   </head>
   
   <body class=page-index>
@@ -14,7 +13,7 @@
     <?php include 'includes/header.php'; ?>
 
     <section class="hero">
-      <img src="img/display.jpg" alt="Hero Background" class="hero-image"> 
+      <img src="../img/display.jpg" alt="Hero Background" class="hero-image"> 
 
       <div class="container hero-content-overlay">
         <h1>NIHIL&nbsp;&nbsp;STUDIO</h1>
@@ -23,7 +22,7 @@
     </section>
 
     <section class="features container">
-      <br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br>
       <h2>Mengapa Memilih Kami?</h2>
       
       <div class="grid-4">
@@ -54,15 +53,15 @@
       <h2>Apa Kata Mereka?</h2>
       <div class="grid-3">
         <div class="card photo-card">
-          <img src="img/testimoni1.jpg" alt="Foto Produk 1" class="card-photo"> 
+          <img src="../img/testimoni1.jpg" alt="Foto Produk 1" class="card-photo"> 
         </div>
       
         <div class="card photo-card">
-          <img src="img/testimoni2.jpg" alt="Foto Produk 2" class="card-photo">
+          <img src="../img/testimoni2.jpg" alt="Foto Produk 2" class="card-photo">
         </div>
       
         <div class="card photo-card">
-          <img src="img/testimoni3.jpg" alt="Foto Produk 3" class="card-photo">
+          <img src="../img/testimoni3.jpg" alt="Foto Produk 3" class="card-photo">
         </div>
       </div>
       <br></br><br></br>
